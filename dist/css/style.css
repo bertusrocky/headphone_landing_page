@@ -116,4 +116,55 @@ img {
 .section-a p {
   margin: 1rem 0;
 }
+
+.section-b {
+  position: relative;
+  background: url("../img/section-b.jpg") no-repeat bottom center/cover;
+  height: 600px;
+}
+
+.section-b .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.section-b .section-b-inner {
+  color: #ffff;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem 0;
+}
+
+.section-b .section-b-inner h3 {
+  font-size: 2rem;
+}
+
+.section-b .section-b-inner h2 {
+  font-size: 5rem;
+  margin-top: 1rem;
+}
+
+.section-b .section-b-inner p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
